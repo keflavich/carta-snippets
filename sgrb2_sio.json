@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "dataloaders"
+    ],
+    "code": "await app.openFile(\"sgrb2/2016.1.00550.S/imaging/sgr_b2m.N.spw0.sio.clarkclean.image.pbcor.medsub.fits\")\n",
+    "frontendVersion": "3.0.0-beta.1b",
+    "snippetVersion": 1
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "salt"
+    ],
+    "code": "const frame = await app.openFile(\"/salt/s255ir/imaging/S255IR-SMA1_sci.spw25_27_29_31.mfs.I.manual.image.tt0.pbcor\");\n\n\nconst frame0 = await app.appendFile(\"/salt/s255ir/imaging/S255IR-SMA1_sci.spw0.cube.I.zoom.manual.image\");\nframe0.restFreqStore.setCustomUnit(\"GHz\");\nframe0.restFreqStore.setCustomVal(234.251912);\n\n\nconst frame1 = await app.appendFile(\"/salt/s255ir/imaging/S255IR-SMA1_sci.spw1.cube.I.zoom.manual.image\");\nframe1.restFreqStore.setCustomUnit(\"GHz\");\nframe1.restFreqStore.setCustomVal(232.6867);\n\n\nconst frame2 = await app.appendFile(\"/salt/s255ir/imaging/S255IR-SMA1_sci.spw2.cube.I.zoom.manual.image\");\nframe2.restFreqStore.setCustomUnit(\"GHz\");\nframe2.restFreqStore.setCustomVal(217.817644);\n\n\nconst frame3 = await app.appendFile(\"/salt/s255ir/imaging/S255IR-SMA1_sci.spw3.cube.I.zoom.manual.image\");\nframe3.restFreqStore.setCustomUnit(\"GHz\");\nframe3.restFreqStore.setCustomVal(219.614936);",
+    "frontendVersion": "3.0.0-beta.3",
+    "snippetVersion": 1
+}
