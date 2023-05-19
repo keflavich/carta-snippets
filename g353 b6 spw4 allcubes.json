@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "alma-imf"
+    ],
+    "code": "await app.openFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.image\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.model\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.residual\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.image.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.image.mincube.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.image.pbcor\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.image.pbcor.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.image.pbcor.mincube.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.JvM.image.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw4_12M_spw4.JvM.image.pbcor.fits\")\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

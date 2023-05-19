@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.openFile(\"jwst/brick/F466N/pipeline/jw02221-o001_t001_nircam_clear-f466n-nrca_i2d.fits\");\nawait app.appendFile(\"jwst/brick/F466N/f466n_nrca_bgsub_crowdsource_nsky0_data-modsky.fits\")\nawait app.appendFile(\"jwst/brick/F466N/f466n_nrca_crowdsource_nsky0_data-modsky.fits\")\nawait app.appendFile(\"jwst/brick/F410M/pipeline/jw02221-o001_t001_nircam_clear-f410m-nrca_i2d.fits\");\nawait app.appendFile(\"jwst/brick/F410M/f410m_nrca_bgsub_crowdsource_nsky0_data-modsky.fits\")\nawait app.appendFile(\"jwst/brick/F410M/f410m_nrca_crowdsource_nsky0_data-modsky.fits\")\nawait app.appendFile(\"jwst/brick/F405N/pipeline/jw02221-o001_t001_nircam_clear-f405n-nrca_i2d.fits\");\nawait app.appendFile(\"jwst/brick/F405N/f405n_nrca_bgsub_crowdsource_nsky0_data-modsky.fits\")\nawait app.appendFile(\"jwst/brick/F405N/f405n_nrca_crowdsource_nsky0_data-modsky.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

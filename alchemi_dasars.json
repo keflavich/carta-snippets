@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "brick"
+    ],
+    "code": "const frame0 = await app.openFile(\"/extragalactic/alchemi/Archive/v0/B3d/ngc253.B3d.sc4_1.12mC12mE.106700.contsub.cv01_6.cube.fits\")\nframe0.restFreqStore.setCustomUnit(\"GHz\");\nframe0.restFreqStore.setCustomVal(107.013831);\nconst frame1 = await app.appendFile(\"/extragalactic/alchemi/Archive/v0/B3d/ngc253.B3d.sc4_1.12mC12mE.106700.nocontsub.cv01_6.cube.fits\")\nframe1.restFreqStore.setCustomUnit(\"GHz\");\nframe1.restFreqStore.setCustomVal(107.013831);\nconst frame2 = await app.appendFile(\"/extragalactic/alchemi/Archive/v0/B4f/ngc253.B4f.sc4_1.12m7m.156300.contsub.cv01_6.cube.fits\")\nframe2.restFreqStore.setCustomUnit(\"GHz\");\nframe2.restFreqStore.setCustomVal(156.60239);\nconst frame3 = await app.appendFile(\"/extragalactic/alchemi/Archive/v0/B4f/ngc253.B4f.sc4_1.12m7m.156300.nocontsub.cv01_6.cube.fits\")\nframe3.restFreqStore.setCustomUnit(\"GHz\");\nframe3.restFreqStore.setCustomVal(156.60239);\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

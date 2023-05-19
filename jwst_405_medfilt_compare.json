@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.openFile(\"jwst/brick/F405N/pipeline/jw02221-o001_t001_nircam_clear-f405n-nrca_i2d.fits\");\nawait app.appendFile(\"jwst/brick/images/jw02221-o001_t001_nircam_f405n-f444w_i2d.fits\");\nawait app.appendFile(\"jwst/brick/images/jw02221-o001_t001_nircam_f405n-f444w_i2d_medfilt128.fits\");\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

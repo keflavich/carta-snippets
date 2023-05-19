@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "\nawait app.openFile(\"jwst/brick/images/F405_minus_F410cont_refitted405wcsto410_nrca_destarred6.fits\")\nawait app.appendFile(\"/jwst/brick/F410M/pipeline/jw02221-o001_t001_nircam_clear-f410m-nrca_i2d.fits\")\nawait app.appendFile(\"jwst/brick/images/F410_minus_F405_refitted405wcsto410_nrca.fits\")\nawait app.appendFile(\"jwst/brick/images/F405_minus_F410cont_refitted405wcsto410_nrca.fits\")\nawait app.appendFile(\"/jwst/brick/F405N/pipeline/jw02221-o001_t001_nircam_clear-f405n-nrca_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/F187N/pipeline/jw02221-o001_t001_nircam_clear-f187n-nrca_i2d.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\nawait app.importRegion('jwst/brick/regions', 'manual_destar_right_405.reg', 2);\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

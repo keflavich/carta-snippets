@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "alma-imf"
+    ],
+    "code": "await app.openFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.image\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.model\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.mask\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.residual\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.image.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.image.mincube.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.image.pbcor\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.image.pbcor.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.image.pbcor.mincube.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.JvM.image.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G353.41_B6_spw5_12M_spw5.JvM.image.pbcor.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    //frame.renderConfig.setScaling(1);\n    //frame.renderConfig.setCustomScale(-1, 100);\n    frame.restFreqStore.setCustomUnit(\"GHz\");\n    frame.restFreqStore.setCustomVal(230.538);\n}\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

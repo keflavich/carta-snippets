@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "alma-imf"
+    ],
+    "code": "await app.openFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/W51-E_B6_spw1_12M_spw1.JvM.image.pbcor.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/W51-E_B6_spw1_12M_sio.JvM.image.pbcor.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    //frame.renderConfig.setScaling(1);\n    //frame.renderConfig.setCustomScale(-1, 100);\n    frame.restFreqStore.setCustomUnit(\"GHz\");\n    frame.restFreqStore.setCustomVal(217.10498);\n}\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

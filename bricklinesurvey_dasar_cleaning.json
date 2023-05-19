@@ -1,0 +1,7 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [],
+    "code": "await app.openFile('/blue/abulatek/brick/dasar/recleaning/brick_107GHz_dasar_line_1mJy_multiscale.image')\nawait app.appendFile('/blue/abulatek/brick/dasar/recleaning/brick_107GHz_dasar_line_1mJy_multiscale.model')\nawait app.appendFile('/blue/abulatek/brick/dasar/recleaning/brick_107GHz_dasar_line_1mJy_multiscale.residual')\nawait app.appendFile('/blue/abulatek/brick/dasar/recleaning/brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.image')\nawait app.appendFile('/blue/abulatek/brick/dasar/recleaning/brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.model')\nawait app.appendFile('/blue/abulatek/brick/dasar/recleaning/brick_108GHz_dasar_line_1mJy_multiscale_cyclefactor4.residual')\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

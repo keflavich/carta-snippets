@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "salt"
+    ],
+    "code": "const frame = await app.openFile(\"/salt/maud/G17_SPW0_2017.image.fits\")\nawait app.appendFile(\"/salt/maud/G17_SPW1_2017.image.fits\")\nawait app.appendFile(\"/salt/maud/G17_SPW2_2017.image.fits\")\nawait app.appendFile(\"/salt/maud/G17_SPW3_2017.image.fits\")\nawait app.appendFile(\"/salt/maud/KCl_v_le_3_stackcube.fits\")\nawait app.appendFile(\"/salt/maud/KCl_v_le_4_stackcube.fits\")\nawait app.appendFile(\"/salt/maud/NaCl_v_le_3_stackcube.fits\")\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}
