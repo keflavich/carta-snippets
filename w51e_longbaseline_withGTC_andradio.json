@@ -1,7 +1,7 @@
 {
     "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
     "categories": [
-        "dataloaders"
+        "w51"
     ],
     "code": "await app.openFile(\"/w51/vla/16B-202_W51QKa/merge/W51e2w_QbandAarray_cont_spws_continuum_cal_clean_2terms_robust0_selfcal20_final.image.tt0\")\nawait app.appendFile(\"/ALMA_IMF/RestructuredImagingResults/W51-E/B3/cleanest/W51-E_B3_uid___A001_X1296_X10b_continuum_merged_12M_robust0_selfcal7_finaliter.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/w51/2017.1.00293.S/may2021_imaging/w51e2.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor\")\nawait app.appendFile(\"/w51/w51-alma-longbaseline/w51e2_cont_big_robust0.image.tt0\")\nawait app.appendFile(\"/w51/gtc/adendawson/real_reduction/reduced_images/reproject_FINAL_EMIR_STR_IMG_G_0_Ks_reprojected.fits\")\nawait app.appendFile(\"/w51/gtc/adendawson/real_reduction/reduced_images/reproject_FINAL_EMIR_STR_IMG_G_0_H2_1_0_0002_reprojected.fits\")\nawait app.appendFile(\"/w51/vla/2016paper/W51Ku_BDarray_continuum_2048_both_uniform.hires.clean.image.fits\")\nawait app.appendFile(\"/w51/vla/2016paper/W51Ku_C_Aarray_continuum_2048_high_uniform.clean.image.fits\")",
     "frontendVersion": "3.0.0-beta.3",

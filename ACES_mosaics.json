@@ -1,6 +1,6 @@
 {
     "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
-    "categories": [],
+    "categories": ["ACES"],
     "code": "await app.openFile(\"ACES/mosaics/12m_continuum_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_h40a_m0_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_h40a_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_hcop_m0_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_hcop_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_hnco_m0_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_hnco_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_continuum_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_h40a_m0_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_h40a_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_hcop_m0_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_hcop_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_hnco_m0_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/7m_hnco_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/TP_spw17mx_mosaic.fits\")\n",
     "frontendVersion": "3.0.0-beta.3",
     "snippetVersion": 1

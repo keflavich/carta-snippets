@@ -1,7 +1,7 @@
 {
     "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
     "categories": [
-        "dataloaders"
+        "w51"
     ],
     "code": "await app.openFile(\"w51/2017.1.00293.S/may2021_successful_imaging/w51n.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor\")\nawait app.appendFile(\"w51/FITS/W51n_cont_briggsSC_tclean.image.fits\")\nawait app.appendFile(\"w51/vla/16B-202_W51QKa/merge/W51North_QbandAarray_cont_spws_continuum_cal_clean_2terms_robust0_incrementalselfcal10.image.tt0.pbcor.fits\")\nawait app.appendFile(\"w51/vla/19A-254/blue_imaging/W51_North_KbandAarray_cont_spws_continuum_cal_clean_2terms_robust0_selfcal3.image.tt0.pbcor.fits\")\n\n",
     "frontendVersion": "3.0.0-beta.1b",
