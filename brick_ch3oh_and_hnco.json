@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "brick"
+    ],
+    "code": "const frame0 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_106_spw29_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nframe0.restFreqStore.setCustomUnit(\"GHz\");\nframe0.restFreqStore.setCustomVal(107.013831);\n\nconst frame3 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_244_spw65_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nframe3.restFreqStore.setCustomUnit(\"GHz\");\nframe3.restFreqStore.setCustomVal(241.791352);\n\nconst frame5 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_142_spw111_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nframe5.restFreqStore.setCustomUnit(\"GHz\");\nframe5.restFreqStore.setCustomVal(143.865795);\n\n\n\n\nconst frame1 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_110_spw29_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nframe1.restFreqStore.setCustomUnit(\"GHz\");\nframe1.restFreqStore.setCustomVal(109.90575583);\n\nconst frame2 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_132_spw107_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nframe2.restFreqStore.setCustomUnit(\"GHz\");\nframe2.restFreqStore.setCustomVal(131.8857444);\n\nconst frame4 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_263_spw111_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nframe4.restFreqStore.setCustomUnit(\"GHz\");\nframe4.restFreqStore.setCustomVal(263.74864461);",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

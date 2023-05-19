@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.openFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_02_T23_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_03_T15_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_05_T15_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_06_T01_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_06_T12_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_07_T13_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_08_T12_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_03_10_T12_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_04_05_T10_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_04_06_T14_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_2018_04_18_T13_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_50mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_25mJy.image.pbcor\")\n\n\n\nawait app.importRegion('/sgrb2/18A-229/regions/', 'ch3ohmasers_from18A229b.crtf', 1);\nawait app.importRegion('/sgrb2/18A-229/regions/', 'ch3ohmasers_from18A229.reg', 2);",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

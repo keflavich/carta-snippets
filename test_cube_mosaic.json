@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "aces"
+    ],
+    "code": "await app.openFile(\"ACES/mosaics/CS21_CubeMosaic_BasicTest.fits\")",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

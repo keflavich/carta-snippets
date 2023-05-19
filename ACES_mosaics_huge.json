@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "ACES"
+    ],
+    "code": "\nawait app.openFile(\"/blue/adamginsburg/ACES/workdir/HNCO_CubeMosaic.fits\")\nawait app.appendFile(\"/blue/adamginsburg/ACES/workdir/SiO21_CubeMosaic.fits\")\nawait app.appendFile(\"/blue/adamginsburg/ACES/workdir/SiO21_CubeMosaic_max.fits\")\nawait app.appendFile(\"/blue/adamginsburg/ACES/workdir/SiO21_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"/blue/adamginsburg/ACES/workdir/SiO21_CubeMosaic_PV_max.fits\")\nawait app.appendFile(\"/blue/adamginsburg/ACES/workdir/SiO21_CubeMosaic_PV_mean.fits\")\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

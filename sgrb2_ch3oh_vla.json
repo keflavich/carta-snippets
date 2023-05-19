@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.openFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_MN_Ka_r0.5_CH3OH36.1_clean1e4_25mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_MS_Ka_r0.5_CH3OH36.1_clean1e4_25mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_MS_Q_r0.5_CH3OH44.1_clean1e4_25mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_NM_Q_r0.5_CH3OH44.1_clean1e4_25mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_25mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_N_Q_r0.5_CH3OH44.1_clean1e4_25mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_MN_K_r0.5_CH3OH_22_33_44_55_clean1e4_100mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_SDS_K_r0.5_CH3OH_22_33_44_55_clean1e4_100mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_MN_K_r0.5_CH3OH_66_77_clean1e4_100mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/lines/18A-229_combined_Sgr_B2_SDS_K_r0.5_CH3OH_66_77_clean1e4_100mJy.image.pbcor\")\nawait app.appendFile(\"/sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_SDS_K_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\n\nawait app.appendFile(\"/sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_MS_K_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_MN_K_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\n\nawait app.importRegion('/sgrb2/18A-229/regions/', 'ch3ohmasers_from18A229b.crtf', 1);\nawait app.importRegion('/sgrb2/18A-229/regions/', 'ch3ohmasers_from18A229.reg', 2);",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

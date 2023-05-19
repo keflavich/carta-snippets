@@ -1,13 +1,9 @@
 {
     "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
     "categories": [
-        "hidden"
+        "aces"
     ],
     "code": "await app.appendFile(\"/spitzer/GLIMPSE/GLM_00000+0000_mosaic_I1.fits\")\nawait app.appendFile(\"/spitzer/GLIMPSE/GLM_00000+0000_mosaic_I2.fits\")\nawait app.appendFile(\"/spitzer/GLIMPSE/GLM_00000+0000_mosaic_I3.fits\")\nawait app.appendFile(\"/spitzer/GLIMPSE/GLM_00000+0000_mosaic_I4.fits\")",
-    "frontendVersion": "v2.0.0",
-    "requires": [],
-    "snippetVersion": 1,
-    "tags": [
-        "previous"
-    ]
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
 }

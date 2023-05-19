@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "aces"
+    ],
+    "code": "await app.openFile(\"/mgps/mgps/SgrB2/SgrB2_5pass_1_.0.2_10mJy_10mJy_w_session5_final_smooth4.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/7m_continuum_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_spw33_35_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_spw33_35_field_number_map.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_spw33_35_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_residual_commonbeam_circular_reimaged_mosaic.fits\")\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

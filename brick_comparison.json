@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "aces"
+    ],
+    "code": "await app.appendFile(\"/ACES/data/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_Xac/calibrated/working/uid___A001_X15a0_Xac.s10_0.Sgr_A_star_sci.spw25_27_29_31_33_35.cont.I.iter1.image.tt0.pbcor\")\nawait app.appendFile(\"/ACES/data/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_Xac/calibrated/working/uid___A001_X15a0_Xac.s36_0.Sgr_A_star_sci.spw33_35.cont.I.iter1.image.tt0.pbcor\")\nawait app.appendFile(\"/ACES/data/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X190/calibrated/working/uid___A001_X15a0_X190.s36_0.Sgr_A_star_sci.spw25_27_29_31_33_35.cont.I.iter1.image.tt0.pbcor\")\nawait app.appendFile(\"/ACES/data/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X190/calibrated/working/uid___A001_X15a0_X190.s36_0.Sgr_A_star_sci.spw33_35.cont.I.iter1.image.tt0.pbcor\")\nawait app.appendFile(\"/brick_alma_linesurvey/archive_brick/2011.0.00217.S/sg_ouss_id/group_ouss_id/member_ouss_2012-09-06_id/product/G0.25_B3.ms.CONT.image.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_spw33_35_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_spw33_35_mosaic.fits\")\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

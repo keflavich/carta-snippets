@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "brick"
+    ],
+    "code": "await app.openFile(\"/cmz/CHIMPS/12CO_CMZ_INTEG_LB.fits\")\n//await app.importRegion('/jwst/brick/regions', 'brick_polgyon.reg', 2)\nawait app.appendFile(\"/cmz/tangyping_1mm/img_1100_sgrb2_Bolocam_plus_AzTEC.fits\")\nawait app.appendFile(\"/cmz/APEX_Ginsburg/apex_13co_2014_merge.fits\")\nawait app.appendFile(\"/cmz/CHIMPS/12CO_GC_359-000_mosaic_rewrite.fits\")\n\nawait app.appendFile(\"/cmz/ppmap/PPMAP_Results/l000_results/l000_cdens.fits\")",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

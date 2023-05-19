@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.openFile('/jwst/brick/mastDownload/JWST/jw02221001001_03101_00006_nrcb3/jw02221001001_03101_00006_nrcb3_uncal.fits')\nawait app.appendFile('/jwst/brick/mastDownload/JWST/jw02221001001_03101_00006_nrcb3/jw02221001001_03101_00006_nrcb3_trapsfilled.fits')\nawait app.appendFile('/jwst/brick/mastDownload/JWST/jw02221001001_03101_00006_nrcb3/jw02221001001_03101_00006_nrcb3_cal.fits')\nawait app.appendFile('/jwst/brick/mastDownload/JWST/jw02221001001_03101_00006_nrcb3/jw02221001001_03101_00006_nrcb3_i2d.fits')\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

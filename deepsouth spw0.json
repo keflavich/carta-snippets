@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.openFile(\"/sgrb2/2017.1.00114.S/imaging_results/SgrB2DS_field1_spw0_cube.image\")\nawait app.appendFile(\"/sgrb2/2017.1.00114.S/imaging_results/SgrB2DS_field10_spw0_cube.image\")\nawait app.appendFile(\"/sgrb2/2017.1.00114.S/imaging_results/SgrB2DS_field2_spw0_cube.image\")\nawait app.appendFile(\"/sgrb2/2017.1.00114.S/imaging_results/Sgr_B2_DS_B6_uid___A001_X1290_X46_continuum_merged_12M_robust0_selfcal4_finaliter.image.tt0\")",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.appendFile(\"/sgrb2/2016.1.00550.S/FITS/SgrB2_B3_NM_mosaic_withshortspacing.fits\")",
+    "frontendVersion": "3.0.0",
+    "snippetVersion": 1
+}
