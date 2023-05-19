@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "ACES"
+    ],
+    "code": "await app.openFile(\"ACES/mosaics/12m_continuum_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_continuum_field_number_map.fits\")",
+    "frontendVersion": "3.0.0-beta.3",
+    "snippetVersion": 1
+}

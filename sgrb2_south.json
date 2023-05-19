@@ -3,7 +3,7 @@
     "categories": [
         "dataloaders"
     ],
-    "code": "await app.openFile(\"sgrb2/2017.1.00114.S/imaging_results/Sgr_B2_DS_B6_uid___A001_X1290_X46_continuum_merged_12M_robust2_selfcal4_finaliter_feathered_with_bolocam.fits\")\nawait app.appendFile(\"sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_SDS_K_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_MS_Ka_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_S_Q_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/2013.1.00269.S/continuum/SgrB2_selfcal_full_TCTE7m_try2_selfcal6_ampphase_deeper_mask1.5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/NB/sgr_b2.M.B3.cont.r0.5.500k0.1mjy.cal1.image.tt0.pbcor.fits\")\n",
-    "frontendVersion": "3.0.0-beta.1b",
+    "code": "await app.openFile(\"sgrb2/2017.1.00114.S/imaging_results/Sgr_B2_DS_B6_uid___A001_X1290_X46_continuum_merged_12M_robust2_selfcal4_finaliter_feathered_with_bolocam.fits\")\nawait app.appendFile(\"sgrb2/2017.1.00114.S/imaging_results/Sgr_B2_DS_B6_uid___A001_X1290_X46_continuum_merged_12M_robust0_selfcal4_finaliter.image.tt0.pbcor\")\nawait app.appendFile(\"sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_SDS_K_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_MS_Ka_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/18A-229/FITS/18A-229_combined_Sgr_B2_S_Q_r0.5_allcont_clean1e4_5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/2013.1.00269.S/continuum/SgrB2_selfcal_full_TCTE7m_try2_selfcal6_ampphase_deeper_mask1.5mJy.image.tt0.pbcor.fits\")\nawait app.appendFile(\"sgrb2/NB/sgr_b2.M.B3.cont.r0.5.500k0.1mjy.cal1.image.tt0.pbcor.fits\")\n",
+    "frontendVersion": "3.0.0-beta.3",
     "snippetVersion": 1
 }

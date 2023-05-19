@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "alma-imf"
+    ],
+    "code": "await app.openFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G338.93_B6_uid___A001_X1296_X14f_continuum_merged_12M_robust0_selfcal6_finaliter.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G338.93_B6_spw7_12M_spw7.image.pbcor.statcont.cont.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/G338.93_B6_spw0_12M_spw0.image.pbcor.statcont.cont.fits\")\n",
+    "frontendVersion": "3.0.0-beta.3",
+    "snippetVersion": 1
+}

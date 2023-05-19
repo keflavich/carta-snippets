@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "salt"
+    ],
+    "code": "\nawait app.openFile(\"/salt/beuther/G351_cont.fits\");\nconst frame = await app.appendFile(\"/salt/beuther/G351_spw0_selfcal2.fits\");\nconst frame0 = await app.appendFile(\"/salt/beuther/G351_spw1_selfcal2.fits\");\nconst frame1 = await app.appendFile(\"/salt/beuther/G351_spw2_selfcal2.fits\");\nconst frame2 = await app.appendFile(\"/salt/beuther/G351_spw3_selfcal2.fits\");\nconst frame3 = await app.appendFile(\"/ALMAIMF_Images/G351.77/B6/linecubes_12m/G351.77_B6_spw1_12M_sio.JvM.image.pbcor.statcont.contsub.fits\");\n\nawait app.appendFile(\"/ALMAIMF_Images/G351.77/B6/cleanest/G351.77_B6_uid___A001_X1296_X201_continuum_merged_12M_robust0_selfcal4_finaliter.image.tt0.pbcor.fits\");\n\nawait app.appendFile(\"/salt/sanhueza/G351.77/G351.77-0.54.config8.cont_avg.selfcal_0.5_hogbom.image.fits\");\nawait app.appendFile(\"/salt/sanhueza/G351.77/G351.77-0.54.config8.spw0.robust0.5.image_small.fits\");\nawait app.appendFile(\"/salt/sanhueza/G351.77/G351.77-0.54.config8.spw1.robust0.5.image_small.fits\");\nawait app.appendFile(\"/salt/sanhueza/G351.77/G351.77-0.54.config8.spw2.robust0.5.image_small.fits\");\nawait app.appendFile(\"/salt/sanhueza/G351.77/G351.77-0.54.config8.spw3.robust0.5.image_small.fits\");",
+    "frontendVersion": "3.0.0-beta.3",
+    "snippetVersion": 1
+}

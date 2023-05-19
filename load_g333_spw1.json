@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "dataloaders"
+    ],
+    "code": "// 03. Loading images\n\n// CARTA functions and objects can be accessed via the top-level \"app\" object\n// (or the \"carta\" alias).\n//carta.showSplashScreen();\n//await carta.delay(1000);\n//app.hideSplashScreen();\n\n// Images in the frontend are referred to as frames. Each frame is represented\n// by a FrameStore object, accessible via the array \"frames\". The currently\n// active frame is accessible at \"activeFrame\".\nconsole.log(app.frames);\nconsole.log(app.activeFrame);\n\n\nawait app.openFile(\"//ALMA_IMF/2017.1.01355.L/imaging_results/G333.60_B6_spw1_12M_spw1.image.pbcor\");\nawait app.appendFile(\"//ALMA_IMF/2017.1.01355.L/imaging_results/G333.60_B6_spw1_12M_spw1.model\");\nawait app.appendFile(\"//ALMA_IMF/2017.1.01355.L/imaging_results/G333.60_B6_spw1_12M_spw1.residual\");\n\nawait app.appendFile(\"//ALMA_IMF/2017.1.01355.L/imaging_results/G333.60_B6_spw1_12M_sio.image.pbcor\");\nawait app.appendFile(\"//ALMA_IMF/2017.1.01355.L/imaging_results/G333.60_B6_spw1_12M_sio.model\");\nawait app.appendFile(\"//ALMA_IMF/2017.1.01355.L/imaging_results/G333.60_B6_spw1_12M_sio.residual\");\n",
+    "frontendVersion": "3.0.0-beta.3",
+    "snippetVersion": 1
+}

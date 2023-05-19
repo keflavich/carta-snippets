@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "dataloaders"
+    ],
+    "code": "console.log(app.frames);\nconsole.log(app.activeFrame);\n\n\nawait app.openFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/W51-E_B3_uid___A001_X1296_X10b_continuum_merged_12M_robust0_selfcal7_finaliter.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/ALMA_IMF/2017.1.01355.L/imaging_results/W51-E_B6_uid___A001_X1296_X213_continuum_merged_12M_robust0_selfcal7_finaliter.image.tt0.pbcor.fits\")\n",
+    "frontendVersion": "3.0.0-beta.3",
+    "snippetVersion": 1
+}
