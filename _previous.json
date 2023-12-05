@@ -3,7 +3,7 @@
     "categories": [
         "hidden"
     ],
-    "code": "await app.appendFile(\"/sgrb2/2016.1.00550.S/science_goal.uid___A001_X879_X160/group.uid___A001_X879_X161/member.uid___A001_X879_X162/calibrated/full_SgrB2N_spw1_lines.fits\")\nawait app.appendFile(\"/sgrb2/2016.1.00550.S/science_goal.uid___A001_X879_X160/group.uid___A001_X879_X161/member.uid___A001_X879_X162/calibrated/full_SgrB2N_spw0_lines.fits\")\nawait app.appendFile(\"/sgrb2/2016.1.00550.S/science_goal.uid___A001_X879_X160/group.uid___A001_X879_X161/member.uid___A001_X879_X162/calibrated/full_SgrB2N_spw3_lines.fits\")\nawait app.appendFile(\"/sgrb2/2016.1.00550.S/science_goal.uid___A001_X879_X160/group.uid___A001_X879_X161/member.uid___A001_X879_X162/calibrated/full_SgrB2N_spw2_lines.fits\")\n",
+    "code": "\nawait app.appendFile(\"/ACES//data/2021.1.00172.L/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X1a2/calibrated/working/uid___A001_X15a0_X1a2.s38_0.Sgr_A_star_sci.spw33.cube.I.iter1.image\")\n\n",
     "frontendVersion": "v2.0.0",
     "requires": [],
     "snippetVersion": 1,

@@ -1,7 +1,9 @@
 {
     "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
-    "categories": ["jwbrick"],
-    "code": "await app.openFile(\"jwst/brick/images/jw02221-o001_t001_nircam_clear-f410m_i2d_reprj_f410.fits\")\nawait app.appendFile(\"jwst/brick/images/jw02221-o001_t001_nircam_f444w-f466n_i2d_reprj_f410.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred2.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred3.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred4.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred5.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred6.fits\")\n\n",
-    "frontendVersion": "3.0.0-beta.3",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.openFile(\"jwst/brick/images/jw02221-o001_t001_nircam_clear-f410m_i2d_reprj_f410.fits\")\nawait app.appendFile(\"jwst/brick/images/jw02221-o001_t001_nircam_f444w-f466n_i2d_reprj_f410.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred2.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred3.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred4.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred5.fits\")\nawait app.appendFile(\"jwst/brick/images/F466_minus_F410cont_refitted466wcsto410_nrca_destarred6.fits\")\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\nawait app.importRegion('jwst/brick/regions', 'manual_destar_left_466.reg', 2);",
+    "frontendVersion": "4.0.0-beta.1",
     "snippetVersion": 1
 }
