@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "ACES"
+    ],
+    "code": "await app.openFile(\"ACES/mosaics/12m_continuum_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_h40a_max_mosaic.fits\")\nawait app.appendFile(\"ACES/mosaics/12m_hcop_max_mosaic.fits\")\nawait app.appendFile(\"/cmz/glimpse_data/GLM_00000+0000_mosaic_I1.fits\")\nawait app.appendFile(\"/cmz/glimpse_data/GLM_00000+0000_mosaic_I2.fits\")\nawait app.appendFile(\"/cmz/glimpse_data/GLM_00000+0000_mosaic_I4.fits\")\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

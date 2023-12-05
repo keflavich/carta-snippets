@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "ACES"
+    ],
+    "code": "await app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_spw33_35_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_commonbeam_circular_reimaged_spw33_35_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_spw33_35_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_reimaged_spw33_35_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_residual_commonbeam_circular_reimaged_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_residual_commonbeam_circular_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_residual_reimaged_maskedrms_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/12m_continuum_residual_reimaged_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/7m_continuum_commonbeam_circular_mosaic.fits\")\nawait app.appendFile(\"/ACES/mosaics/feather_7m12m_continuum_commonbeam_circular_mosaic.fits\")\n\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(2);\n    frame.renderConfig.setCustomScale(-0.0001, 0.005);\n}\n\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

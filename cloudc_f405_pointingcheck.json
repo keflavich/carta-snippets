@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "cloudc"
+    ],
+    "code": "await app.openFile(\"/jwst/cloudc/F405N/pipeline/jw02221002001_08201_00003_nrcalong_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/F212N/pipeline/jw02221002001_10201_00001_nrca4_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/F405N/pipeline/jw02221002001_08201_00003_nrcblong_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/F212N/pipeline/jw02221002001_10201_00001_nrcb4_i2d.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\n// await app.importRegion('jwst/brick/regions', 'manual_destar_right_405.reg', 2);\n//await app.appendCatalog(\"/jwst/brick/catalogs/\", \"crowdsource_based_nircam-long_reference_astrometric_catalog.fits\", 100, 1)\nawait app.appendCatalog(\"/jwst/cloudc/F405N/pipeline/\", \"jw02221-o002_t001_nircam_clear-F405N-merged_vvvcat.fits\", 100, 1)\n//await app.appendCatalog(\"/jwst/brick/F410M/\", \"f410m_nrca_crowdsource_nsky0.fits\", 100, 1)\n\n// this one has to be made by hand, it isn't auto-updated\n//await app.appendCatalog(\"/jwst/brick/F410M/pipeline/\", \"jw02221-o001_t001_nircam_clear-f410m-nrca_cat.fits\", 100, 1)\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

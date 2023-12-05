@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "aces"
+    ],
+    "code": "\nawait app.appendFile(\"/ACES//data/2021.1.00172.L/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X10c/calibrated/working/uid___A001_X15a0_X10c.s38_0.Sgr_A_star_sci.spw33.cube.I.iter1.image\")\n\nawait app.appendFile(\"/ACES//data/2021.1.00172.L/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X10c/calibrated/working/uid___A001_X15a0_X10c.s38_0.Sgr_A_star_sci.spw33.cube.I.iter1.image.pbcor_H40_Alpha_mom0.fits\")",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "utilities"
+    ],
+    "code": "for (const reg of app.frames[0].regionSet.regions) {\n    app.frames[0].regionSet.deleteRegion(reg);\n}",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

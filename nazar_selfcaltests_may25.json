@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.openFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m7mJy.cal2.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m1.5mJy.cal3.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m1.5mJy.cal3_selfcal_test2.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m1.5mJy.cal3_selfcal_test_uvrange250.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m1.5mJy.cal3_selfcal_test_calflag.image.tt0.pbcor.fits\")\n\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(2);\n    frame.renderConfig.setCustomScale(-0.001, 0.051);\n}",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

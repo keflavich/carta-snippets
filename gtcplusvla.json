@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "w51"
+    ],
+    "code": "\nawait app.openFile(\"/w51/gtc/adendawson/real_reduction/reduced_images/reproject_FINAL_EMIR_STR_IMG_G_0_Ks_reprojected.fits\")\nawait app.appendFile(\"/w51/gtc/adendawson/real_reduction/reduced_images/reproject_FINAL_EMIR_STR_IMG_G_0_H2_1_0_0002_reprojected.fits\")\nawait app.appendFile(\"/w51/vla/2016paper/W51Ku_BDarray_continuum_2048_both_uniform.hires.clean.image.fits\")\nawait app.appendFile(\"/w51/vla/2016paper/W51Ku_C_Aarray_continuum_2048_high_uniform.clean.image.fits\")",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

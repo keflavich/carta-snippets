@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.appendFile(\"/sgrb2/22A-020/imaging_Darray/KbandDarray.center.robust0.continuum.big-coarse.liteclean.image\")\nawait app.appendFile(\"/sgrb2/22A-020/imaging_Darray/KubandDarray.center.robust0.continuum.big-coarse.liteclean.image\")\nawait app.appendFile(\"/sgrb2/22A-020/imaging/KbandAarray.center.robust2.continuum.big-coarse.liteclean.image\")\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

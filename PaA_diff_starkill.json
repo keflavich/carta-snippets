@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.openFile(\"jwst/brick//F187N/pipeline/jw02221-o001_t001_nircam_clear-f187n-merged-reproject_i2d.fits\")\nawait app.appendFile(\"jwst/brick//F182M/pipeline/jw02221-o001_t001_nircam_clear-f182m-merged-reproject_i2d.fits\")\nawait app.appendFile(\"jwst/brick/images/F182_minus_F187_merged-reproject_theoretical_bandwidth.fits\")\nawait app.appendFile(\"jwst/brick/images/F187_minus_F182cont_merged-reproject_theoretical_bandwidth.fits\")\nawait app.appendFile(\"jwst/brick/images/F187_refitted187wcsto182_merged-reproject.fits\")\nawait app.appendFile(\"jwst/brick/images/F182_minus_F187_refitted187wcsto182_merged-reproject.fits\")\nawait app.appendFile(\"jwst/brick/images/F187_minus_F182cont_refitted187wcsto182_merged-reproject.fits\")\nawait app.appendFile(\"jwst/brick/images/F182_minus_F187_refitted187wcsto182_merged-reproject.fits\")\nawait app.appendFile(\"jwst/brick/images/F187_minus_F182cont_refitted187wcsto182_merged-reproject.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\nawait app.importRegion('jwst/brick/regions', 'manual_destar_187.reg', 2);",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

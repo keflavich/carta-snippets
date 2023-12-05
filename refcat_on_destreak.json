@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick-1182"
+    ],
+    "code": "await app.openFile(\"/jwst/brick/F444W/pipeline/jw01182004001_04101_00009_nrcalong_destreak.fits\")\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\n// await app.importRegion('jwst/brick/regions', 'manual_destar_right_405.reg', 2);\nawait app.appendCatalog(\"/jwst/brick/catalogs/\", \"crowdsource_based_nircam-long_reference_astrometric_catalog.fits\", 100, 1)\nawait app.appendCatalog(\"/jwst/brick/F410M/pipeline/\", \"jw02221-o001_t001_nircam_clear-f410m-merged_vvvcat.fits\", 100, 1)\nawait app.appendCatalog(\"/jwst/brick/F410M/\", \"f410m_nrca_crowdsource_nsky0.fits\", 100, 1)\n\n// this one has to be made by hand, it isn't auto-updated\nawait app.appendCatalog(\"/jwst/brick/F410M/pipeline/\", \"jw02221-o001_t001_nircam_clear-f410m-nrca_cat.fits\", 100, 1)\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

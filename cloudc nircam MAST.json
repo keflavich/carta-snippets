@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "cloudc"
+    ],
+    "code": "await app.appendFile(\"/jwst/brick/mastDownload/JWST/jw02221-o002_t001_nircam_clear-f182m/jw02221-o002_t001_nircam_clear-f182m_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw02221-o002_t001_nircam_clear-f187n/jw02221-o002_t001_nircam_clear-f187n_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw02221-o002_t001_nircam_clear-f212n/jw02221-o002_t001_nircam_clear-f212n_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw02221-o002_t001_nircam_clear-f410m/jw02221-o002_t001_nircam_clear-f410m_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw02221-o002_t001_nircam_f405n-f444w/jw02221-o002_t001_nircam_f405n-f444w_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw02221-o002_t001_nircam_f444w-f466n/jw02221-o002_t001_nircam_f444w-f466n_i2d.fits\")\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

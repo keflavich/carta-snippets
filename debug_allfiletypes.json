@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_cal.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_destreak.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_destreak_o001_crf.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_i2d.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_o001_crf.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_outlier_i2d.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_rate.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_rateints.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_trapsfilled.fits\")\nawait app.appendFile(\"//jwst/brick/F405N/pipeline/jw02221001001_03101_00001_nrcalong_uncal.fits\")",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick-1182"
+    ],
+    "code": "await app.openFile(\"/jwst/brick/F444W/pipeline/jw01182004001_04101_00009_nrcalong_destreak.fits\")\nawait app.appendFile(\"/jwst/brick/F444W/pipeline/jw01182004002_04101_00012_nrcblong_destreak.fits\")\nawait app.appendFile(\"/jwst/brick/F444W/pipeline/jw01182004002_04101_00012_nrcblong_cal.fits\")\nawait app.appendFile(\"/jwst/brick/F444W/pipeline/jw01182004002_04101_00012_nrcblong_i2d.fits\")\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n    // await app.importRegion('jwst/brick/regions', 'manual_destar_right_405.reg', 2);\n    await app.appendCatalog(\"/jwst/brick/catalogs/\", \"crowdsource_based_nircam-long_reference_astrometric_catalog.fits\", 100, 1)\n    \n}\n\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

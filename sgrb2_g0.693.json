@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.openFile(\"/sgrb2/2016.1.00550.S/FITS/SgrB2_B3_NM_mosaic_withshortspacing.fits\")\nawait app.appendFile(\"/sgrb2/2013.1.00269.S/continuum/SgrB2_selfcal_full_TCTE7m_try2_selfcal6_ampphase_deeper_mask1.5mJy.image.tt0.pbcor.fits\")\n\nawait app.appendFile(\"/sgrb2/2015.1.00150.S_McGuire/member.uid___A001_X2f6_X261.calibrated_final_cont.pbcor.fits\")",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

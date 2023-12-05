@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwstbrick_short"
+    ],
+    "code": "await app.openFile(\"jwst/brick/images/jw02221-o001_t001_nircam_clear-f212m_i2d_reprj_f212.fits\")\nawait app.appendFile(\"jwst/brick/images/jw02221-o001_t001_nircam_f182n-f444w_i2d_reprj_f212.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca_destarred.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca_destarred2.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca_destarred3.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca_destarred4.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca_destarred5.fits\")\nawait app.appendFile(\"jwst/brick/images/F212_minus_F182cont_refitted212wcsto182_nrca_destarred6.fits\")\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\nawait app.importRegion('jwst/brick/regions', 'manual_destar_left_212.reg', 2);\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}

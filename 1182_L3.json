@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "jwbrick"
+    ],
+    "code": "await app.appendFile(\"/jwst/brick/mastDownload/JWST/jw01182-o001_t001_nircam_clear-f115w/jw01182-o001_t001_nircam_clear-f115w_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw01182-o001_t001_nircam_clear-f200w/jw01182-o001_t001_nircam_clear-f200w_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw01182-o001_t001_nircam_clear-f356w/jw01182-o001_t001_nircam_clear-f356w_i2d.fits\")\nawait app.appendFile(\"/jwst/brick/mastDownload/JWST/jw01182-o001_t001_nircam_clear-f444w/jw01182-o001_t001_nircam_clear-f444w_i2d.fits\")\n",
+    "frontendVersion": "4.0.0-beta.1",
+    "snippetVersion": 1
+}
