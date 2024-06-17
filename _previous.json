@@ -3,7 +3,7 @@
     "categories": [
         "hidden"
     ],
-    "code": "\nawait app.appendFile(\"/ACES//data/2021.1.00172.L/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X1a2/calibrated/working/uid___A001_X15a0_X1a2.s38_0.Sgr_A_star_sci.spw33.cube.I.iter1.image\")\n\n",
+    "code": "\n//await app.openFile(\"//ACES/mosaics/cubes/moments/HNCO_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/CS21_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SiO21_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SO32_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/HC3N_CubeMosaic_max.fits\")\n\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/HNCO_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/CS21_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SiO21_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SO32_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/HC3N_CubeMosaic_mom0.fits\")\n\n",
     "frontendVersion": "v2.0.0",
     "requires": [],
     "snippetVersion": 1,

@@ -3,7 +3,7 @@
     "categories": [
         "ACES"
     ],
-    "code": "\nawait app.openFile(\"//ACES/mosaics/cubes/HNCO_CubeMosaic.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/CS21_CubeMosaic.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/SiO21_CubeMosaic.fits\")\n",
-    "frontendVersion": "4.0.0-beta.1",
+    "code": "\n//await app.openFile(\"//ACES/mosaics/cubes/HNCO_CubeMosaic.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/CS21_CubeMosaic.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/SiO21_CubeMosaic.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/SO32_CubeMosaic.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/HC3N_CubeMosaic.fits\")\n",
+    "frontendVersion": "4.1.0",
     "snippetVersion": 1
 }

@@ -3,7 +3,7 @@
     "categories": [
         "cloudc"
     ],
-    "code": "await app.openFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2828/group.uid___A001_X1590_X2829/member.uid___A001_X1590_X282a/calibrated/working/uid___A001_X1590_X282a.CloudC_sci.spw29.merge.m.image\")\n\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2828/group.uid___A001_X1590_X2829/member.uid___A001_X1590_X282a/calibrated/working/uid___A001_X1590_X282a.CloudC_sci.spw27.merge.m.image\")\n\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2828/group.uid___A001_X1590_X2829/member.uid___A001_X1590_X282a/calibrated/working/uid___A001_X1590_X282a.CloudC_sci.spw25.merge.m.image\")",
+    "code": "await app.openFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2828/group.uid___A001_X1590_X2829/member.uid___A001_X1590_X282a/calibrated/working/uid___A001_X1590_X282a.CloudC.spw29.merge.p.image\")\n\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2828/group.uid___A001_X1590_X2829/member.uid___A001_X1590_X282a/calibrated/working/uid___A001_X1590_X282a.CloudC.spw27.merge.p.image\")\n\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2828/group.uid___A001_X1590_X2829/member.uid___A001_X1590_X282a/calibrated/working/uid___A001_X1590_X282a.CloudC_sci.spw25.merge.p.image.pbcor\")",
     "frontendVersion": "4.0.0-beta.1",
     "snippetVersion": 1
 }
