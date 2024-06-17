@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "w51"
+    ],
+    "code": "await app.appendFile(\"w51/vla/19A-254/derod/W51North_spw_44_corrected2.image\")\nawait app.appendFile(\"w51/vla/19A-254/derod/W51North_spw_50_corrected2.image\")\nawait app.appendFile(\"w51/vla/19A-254/derod/W51North_spw_53_corrected2.image\")\n\nawait app.appendFile(\"w51/vla/19A-254/derod/W51North_spw_6_corrected2.image\")\nawait app.appendFile(\"w51/vla/19A-254/derod/W51North_spw_28_corrected2.image\")\nawait app.appendFile(\"w51/vla/19A-254/derod/W51North_spw_41_corrected2.image\")\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

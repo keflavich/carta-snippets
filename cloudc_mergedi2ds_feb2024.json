@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "cloudc"
+    ],
+    "code": "await app.appendFile(\"/jwst/cloudc/images/jw02221-o002_t001_nircam_clear-f182m-merged_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/images/jw02221-o002_t001_nircam_clear-f187n-merged_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/images/jw02221-o002_t001_nircam_clear-f212n-merged_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/images/jw02221-o002_t001_nircam_clear-f405n-merged_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/images/jw02221-o002_t001_nircam_clear-f410m-merged_i2d.fits\")\nawait app.appendFile(\"/jwst/cloudc/images/jw02221-o002_t001_nircam_clear-f466n-merged_i2d.fits\")\n\n\n\nfor (const frame of app.frames) {\n    app.setRasterScalingMatchingEnabled(frame, true);\n    frame.renderConfig.setScaling(1);\n    frame.renderConfig.setCustomScale(-1, 100);\n}\n\n// await app.importRegion('jwst/brick/regions', 'manual_destar_right_405.reg', 2);\n//await app.appendCatalog(\"/jwst/brick/catalogs/\", \"crowdsource_based_nircam-long_reference_astrometric_catalog.fits\", 100, 1)\nawait app.appendCatalog(\"/jwst/cloudc/F405N/pipeline/\", \"jw02221-o002_t001_nircam_clear-F405N-merged_vvvcat.fits\", 100, 1)\n//await app.appendCatalog(\"/jwst/brick/F410M/\", \"f410m_nrca_crowdsource_nsky0.fits\", 100, 1)\n\n// this one has to be made by hand, it isn't auto-updated\n//await app.appendCatalog(\"/jwst/brick/F410M/pipeline/\", \"jw02221-o001_t001_nircam_clear-f410m-nrca_cat.fits\", 100, 1)\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "brick"
+    ],
+    "code": "await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_87_spw102_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\n\nawait app.appendFile(\"/ACES//data/2021.1.00172.L/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_X190/calibrated/working/uid___A001_X15a0_X190.s38_0.Sgr_A_star_sci.spw27.cube.I.iter1.image\")\nawait app.appendFile(\"/ACES//data/2021.1.00172.L/science_goal.uid___A001_X1590_X30a8/group.uid___A001_X1590_X30a9/member.uid___A001_X15a0_Xac/calibrated/working/uid___A001_X15a0_Xac.s38_0.Sgr_A_star_sci.spw27.cube.I.iter1.image\")\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

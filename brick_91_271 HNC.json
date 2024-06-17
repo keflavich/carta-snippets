@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "brick"
+    ],
+    "code": "const frame0 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_91_spw25_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\nframe0.restFreqStore.setCustomUnit(\"GHz\");\nframe0.restFreqStore.setCustomVal(90.663562);\n\nconst frame1 = await app.appendFile(\"/brick_alma_linesurvey/2019.1.00092.S/imaging_results/source_ab_271_spw49_clean_2sigma_n50000_masked_3sigma_pbmask0p18.image\")\nframe1.restFreqStore.setCustomUnit(\"GHz\");\nframe1.restFreqStore.setCustomVal(271.981111);\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

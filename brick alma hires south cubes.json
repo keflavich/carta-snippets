@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "brick"
+    ],
+    "code": "await app.appendFile(\"/jwst/brick/alma/ member.uid___A001_X1590_X281a.Brick_sci.spw29.mfs.I.manual.image.pbcor.fits\")\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2818/group.uid___A001_X1590_X2819/member.uid___A001_X1590_X281a/calibrated/working/uid___A001_X1590_X281a.Brick.spw25.merge.p.image.pbcor\")\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2818/group.uid___A001_X1590_X2819/member.uid___A001_X1590_X281a/calibrated/working/uid___A001_X1590_X281a.Brick.spw27.merge.p.image.pbcor\")\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2818/group.uid___A001_X1590_X2819/member.uid___A001_X1590_X281a/calibrated/working/uid___A001_X1590_X281a.Brick.spw29.merge.p.image.pbcor\")\nawait app.appendFile(\"/jwst/brick/alma/2021.1.00363.S/science_goal.uid___A001_X1590_X2818/group.uid___A001_X1590_X2819/member.uid___A001_X1590_X281a/calibrated/working/uid___A001_X1590_X281a.Brick.spw31.merge.p.image.pbcor\")\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

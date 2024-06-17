@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "ACES"
+    ],
+    "code": "\n//await app.openFile(\"//ACES/mosaics/cubes/moments/HNCO_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/CS21_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SiO21_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SO32_CubeMosaic_max.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/HC3N_CubeMosaic_max.fits\")\n\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/HNCO_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/CS21_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SiO21_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/SO32_CubeMosaic_mom0.fits\")\nawait app.appendFile(\"//ACES/mosaics/cubes/moments/HC3N_CubeMosaic_mom0.fits\")\n\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

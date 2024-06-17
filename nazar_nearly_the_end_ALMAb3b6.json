@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "sgrb2"
+    ],
+    "code": "await app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m7mJy.cal2.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B6.cont.r0.5.1m1.5mJy.cal3.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.N.B3.cont.r0.5.1m0.075mJy.cal2.image.tt0.pbcor.fits\")\nawait app.appendFile(\"/sgrb2/NB/the_end/sgr_b2.M.B3.cont.r0.5.1m0.125mJy.cal3.image.tt0.pbcor.fits\")\n\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://cartavis.github.io/schemas/snippet_schema_1.json",
+    "categories": [
+        "w51"
+    ],
+    "code": "await app.appendFile(\"/w51/alma/2013.1.00308.S/dataverse/northcutout_full_W51_7m12m_spw3_lines.fits\")\nawait app.appendFile(\"/w51/alma/2013.1.00308.S/dataverse/northcutout_full_W51_7m12m_spw3_hires_lines.fits\")\nawait app.appendFile(\"/w51/alma/2013.1.00308.S/dataverse/northcutout_full_W51_spw3_lines.fits\")\n\n",
+    "frontendVersion": "4.1.0",
+    "snippetVersion": 1
+}
